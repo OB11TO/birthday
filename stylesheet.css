@@ -12,7 +12,7 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	background-color: #bfddfa;
 	
 }
 .peach-after {
@@ -25,90 +25,90 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #bddffc;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #d3e7fc;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #bfe3fa;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #bddffc;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #d3e7fc;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #bfe3fa;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #bddffc;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #d3e7fc;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #bfe3fa;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #bddffc;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #d3e7fc;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #bfe3fa;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #bddffc;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #d3e7fc;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #bfe3fa;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #bfddfa;
 	}
 }
 
@@ -127,7 +127,7 @@ body {
 }
 
 .bulb-glow-yellow {
-	background-image: url('bulb_yellow.png');
+	background-image: url('bulb_pink.png');
 	-webkit-animation: bulb_glow_yellow linear 5s;
 	-moz-animation: bulb_glow_yellow linear 5s;
 	-o-animation: bulb_glow_yellow linear 5s;
@@ -144,7 +144,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -157,7 +157,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -170,7 +170,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -183,7 +183,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -196,13 +196,13 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
 
 .bulb-glow-red {
-	background-image: url('bulb_red.png');
+	background-image: url('bulb_blue.png');
 	-webkit-animation: bulb_glow_red linear 5s;
 	-moz-animation: bulb_glow_red linear 5s;
 	-o-animation: bulb_glow_red linear 5s;
@@ -219,7 +219,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -232,7 +232,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -245,7 +245,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -258,7 +258,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -271,12 +271,12 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
 .bulb-glow-blue {
-	background-image: url('bulb_blue.png');
+	background-image: url('bulb_pink.png');
 	-webkit-animation: bulb_glow_blue linear 5s;
 	-moz-animation: bulb_glow_blue linear 5s;
 	-o-animation: bulb_glow_blue linear 5s;
@@ -293,7 +293,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -306,7 +306,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -319,7 +319,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -332,7 +332,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -345,13 +345,13 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
 
 .bulb-glow-green {
-	background-image: url('bulb_green.png');
+	background-image: url('bulb_blue.png');
 	-webkit-animation: bulb_glow_green linear 5s;
 	-moz-animation: bulb_glow_green linear 5s;
 	-o-animation: bulb_glow_green linear 5s;
@@ -368,7 +368,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -381,7 +381,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -394,7 +394,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -407,7 +407,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -420,7 +420,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -501,7 +501,7 @@ body {
 }
 
 .bulb-glow-orange {
-	background-image: url('bulb_orange.png');
+	background-image: url('bulb_blue.png');
 	-webkit-animation: bulb_glow_orange linear 5s;
 	-moz-animation: bulb_glow_orange linear 5s;
 	-o-animation: bulb_glow_orange linear 5s;
@@ -518,7 +518,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -531,7 +531,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -544,7 +544,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -557,7 +557,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -570,7 +570,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 		opacity: 1;
 	}
 }
@@ -578,7 +578,7 @@ body {
 
 /*after music*/
 .bulb-glow-yellow-after {
-	background-image: url('bulb_yellow.png');
+	background-image: url('bulb_pink.png');
 	-webkit-animation: bulb_glow_yellow_after linear 1s infinite;
 	-moz-animation: bulb_glow_yellow_after linear 1s infinite;
 	-o-animation: bulb_glow_yellow_after linear 1s infinite;
@@ -591,7 +591,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -602,7 +602,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -613,7 +613,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -624,7 +624,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -635,7 +635,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_yellow.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -643,7 +643,7 @@ body {
 }
 
 .bulb-glow-red-after {
-	background-image: url('bulb_red.png');
+	background-image: url('bulb_blue.png');
 	-webkit-animation: bulb_glow_red_after linear 1.2s infinite;
 	-moz-animation: bulb_glow_red_after linear 1.2s infinite;
 	-o-animation: bulb_glow_red_after linear 1.2s infinite;
@@ -656,7 +656,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -667,7 +667,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -678,7 +678,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -689,7 +689,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -700,7 +700,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -708,7 +708,7 @@ body {
 }
 
 .bulb-glow-blue-after {
-	background-image: url('bulb_blue.png');
+	background-image: url('bulb_pink.png');
 	-webkit-animation: bulb_glow_blue_after linear 1.4s infinite;
 	-moz-animation: bulb_glow_blue_after linear 1.4s infinite;
 	-o-animation: bulb_glow_blue_after linear 1.4s infinite;
@@ -721,7 +721,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -732,7 +732,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -743,7 +743,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -754,7 +754,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -765,14 +765,14 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_blue.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
 	}
 }
 .bulb-glow-green-after {
-	background-image: url('bulb_green.png');
+	background-image: url('bulb_blue.png');
 	-webkit-animation: bulb_glow_green_after linear 1.8s infinite;
 	-moz-animation: bulb_glow_green_after linear 1.8s infinite;
 	-o-animation: bulb_glow_green_after linear 1.8s infinite;
@@ -785,7 +785,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -797,7 +797,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -808,7 +808,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -819,7 +819,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -830,7 +830,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_green.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -901,7 +901,7 @@ body {
 	}
 }
 .bulb-glow-orange-after {
-	background-image: url('bulb_orange.png');
+	background-image: url('bulb_blue.png');
 	-webkit-animation: bulb_glow_orange_after linear 2.2s infinite;
 	-moz-animation: bulb_glow_orange_after linear 2.2s infinite;
 	-o-animation: bulb_glow_orange_after linear 2.2s infinite;
@@ -914,7 +914,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -925,7 +925,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -936,7 +936,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -947,7 +947,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -958,7 +958,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_orange.png');
+		background-image: url('bulb_blue.png');
 	}
 	100%{
 		background-image: url('bulb.png');
