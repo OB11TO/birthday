@@ -178,7 +178,18 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			if(i==59){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					$('.cake').fadeIn('fast');
+					$('.cake').fadeIn('fast')
+					// После паузы аудио, показать кнопку и видео
+					$('.button-container').fadeIn('fast');
+					$('#play_video').on('click', function () {
+						// Показать видео
+						var audio = $('.song')[0];
+						audio.pause();
+						$('.video-container').fadeIn('fast');
+						var video = $('.video')[0];
+						video.requestFullscreen(); // Запрос на полноэкранный режим
+						video.play();
+				});
 				});
 				
 			}
@@ -191,7 +202,6 @@ $('document').ready(function(){
 		}
 		
 		msgLoop(0);
-		
 	});
 });
 
