@@ -180,8 +180,8 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
-			if(i==69){
-				$("p:nth-child(69)").fadeOut('slow').promise().done(function () {
+			if(i==73){
+				$("p:nth-child(73)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast')
 					// После паузы аудио, показать кнопку и видео
 					$('.button-container').fadeIn('fast');
