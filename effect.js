@@ -173,17 +173,21 @@ $('document').ready(function(){
 		var i;
 
 		function msgLoop (i) {
+			var audioOld = $('.song')[0];
+			var audioNew = $('.song')[1];
+			audioOld.pause();
+			audioNew.play();
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
-			if(i==59){
-				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
+			if(i==69){
+				$("p:nth-child(69)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast')
 					// После паузы аудио, показать кнопку и видео
 					$('.button-container').fadeIn('fast');
 					$('#play_video').on('click', function () {
 						// Показать видео
-						var audio = $('.song')[0];
+						var audio = $('.song')[1];
 						audio.pause();
 						$('.video-container').fadeIn('fast');
 						var video = $('.video')[0];
