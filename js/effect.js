@@ -191,7 +191,7 @@ $('document').ready(function(){
 						audio.pause();
 						$('.video-container').fadeIn('fast');
 						var video = $('.video')[0];
-						// video.requestFullscreen(); // Запрос на полноэкранный режим
+						video.requestFullscreen(); // Запрос на полноэкранный режим
 						video.play();
 				});
 				});
